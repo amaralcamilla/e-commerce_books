@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(235, 231, 231);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  gap: 10px;
+}
+
+.book-item-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #9721bd;
+}
+
+.book-item-price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #9721bd;
+}
+
+.book-button {
+  background: #9721bd;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.book-button:hover {
+  background: #3d055096;
+}
+
+/* Menu */
+.menu-container {
+  height: 34px;
+  background: #9721bd;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-container h1 {
+  font-size: 16px;
+  color: #fff;
+  font-style: italic;
+}
+
+.menu-container span {
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Cart */
+.table-cart {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.table-cart thead,
+th {
+  color: #999;
+  text-align: left;
+  padding: 12px;
+}
+
+.table-cart tbody,
+th {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.table-image {
+  height: 100px;
+}
